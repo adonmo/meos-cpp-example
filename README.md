@@ -49,8 +49,8 @@ include(cmake/CPM.cmake)
 
 CPMAddPackage(
   NAME MEOS
-  GITHUB_REPOSITORY chaitan94/meos
-  GIT_TAG f1f7699e1e3a1a941cdebdaf881c2003a5ed32e0
+  GITHUB_REPOSITORY adonmo/meos
+  GIT_TAG c5fc6ffa8ce8760bd4fde0e588e40aac2eded592
 )
 ```
 
