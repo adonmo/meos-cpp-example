@@ -8,7 +8,9 @@ This project shows a minimal example for how MEOS can be used in C++ projects.
 #include <iostream>
 #include <meos/types/temporal/TSequence.hpp>
 #include "time_utils.cpp"
+
 using namespace std;
+using namespace meos;
 
 
 int main() {
@@ -50,7 +52,7 @@ include(cmake/CPM.cmake)
 CPMAddPackage(
   NAME MEOS
   GITHUB_REPOSITORY adonmo/meos
-  GIT_TAG c5fc6ffa8ce8760bd4fde0e588e40aac2eded592
+  GIT_TAG 0.1
 )
 ```
 

@@ -10,8 +10,7 @@ include(cmake/CPM.cmake)
 CPMAddPackage(
   NAME libmeos
   GITHUB_REPOSITORY adonmo/meos
-  # v0.0.8
-  GIT_TAG c5fc6ffa8ce8760bd4fde0e588e40aac2eded592
+  GIT_TAG 0.1
 )
 
 # ---- Build example application ----

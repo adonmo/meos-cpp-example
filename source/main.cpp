@@ -1,7 +1,9 @@
 #include <iostream>
 #include <meos/types/temporal/TSequence.hpp>
 #include "time_utils.cpp"
+
 using namespace std;
+using namespace meos;
 
 
 int main() {
