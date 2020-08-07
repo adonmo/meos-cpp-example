@@ -1,6 +1,6 @@
 # MEOS C++ example
 
-This project shows a minimal example for how MEOS can be used in C++ projects.
+This project shows a minimal example for how [MEOS](https://github.com/adonmo/meos) can be used in C++ projects.
 
 ## Code Snippet
 
@@ -29,8 +29,8 @@ int main() {
 ## Building
 
 ```sh
-$ cmake -B build -S .
-$ cmake --build build
+cmake -B build -S .
+cmake --build build
 ```
 
 Note: It is assumed you have libgeos-dev installed on your system.
@@ -38,13 +38,16 @@ Note: It is assumed you have libgeos-dev installed on your system.
 ## Running
 
 ```sh
-$ ./build/app
+./build/app
+```
+If you see the following output, you have succesfully ran the example application! :)
+```
 [2@2012-01-01T00:00:00+0000, 1@2012-01-02T00:00:00+0000, 4@2012-01-03T00:00:00+0000, 3@2012-01-04T00:00:00+0000)
 ```
 
 ## How it works
 
-In CMakeLists.txt file you can see that MEOS is included and linked using CPM
+In [CMakeLists.txt](CMakeLists.txt) file you can see that MEOS is included and linked using [CPM](https://github.com/TheLartians/CPM.cmake)
 
 ```cmake
 include(cmake/CPM.cmake)
@@ -57,3 +60,10 @@ CPMAddPackage(
 ```
 
 When you run cmake build, specified version of the library is fetched and linked to the application
+
+## Ready for more?
+Of course, you can build much more useful and all sorts of complex applications using MEOS. Here are some links to help you out:
+
+  - [MEOS C++ Documentation](https://adonmo.github.io/meos/)
+  - [MEOS Repository](https://github.com/adonmo/meos)
+  - [MobilityDB](https://github.com/MobilityDB/MobilityDB) and its [documentation](https://docs.mobilitydb.com/MobilityDB/master/)
